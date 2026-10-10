@@ -1,17 +1,17 @@
-# Relic 客户端下载
+# Relic Client Downloads
 
-墨水屏录音笔 Relic 的手机与电脑客户端安装包。
+Phone and desktop client installers for Relic, the e-ink voice recorder.
 
-**[前往下载页](https://github.com/ltsqyg-lab/relic-downloads/releases/latest)**
+**[Go to the download page](https://github.com/ltsqyg-lab/relic-downloads/releases/latest)**
 
-| 平台 | 文件 | 说明 |
+| Platform | File | Notes |
 |---|---|---|
-| Android | `Relic_android.apk` | 直接安装，允许一次「未知来源」 |
-| iPhone / iPad | `Relic_ios_unsigned.ipa` | **未签名**，需用 Sideloadly / AltStore 以自己的 Apple ID 签名 |
-| macOS | `Relic_mac.dmg` | Apple 芯片。提示「已损坏」时执行 `xattr -dr com.apple.quarantine /Applications/Relic.app` |
-| Windows | `Relic_windows_setup.exe` | 64 位。无代码签名，SmartScreen 点「更多信息 → 仍要运行」 |
-| Windows | `Relic_windows.msi` | 批量部署用 |
+| Android | `Relic_android.apk` | Install directly; allow "unknown sources" once |
+| iPhone / iPad | `Relic_ios_unsigned.ipa` | **Unsigned**; sign it with your own Apple ID using Sideloadly / AltStore |
+| macOS | `Relic_mac.dmg` | Apple silicon. If macOS says the app "is damaged", run `xattr -dr com.apple.quarantine /Applications/Relic.app` |
+| Windows | `Relic_windows_setup.exe` | 64-bit. Not code-signed; in SmartScreen, click "More info → Run anyway" |
+| Windows | `Relic_windows.msi` | For bulk deployment |
 
-安装包本身不含任何账号凭据，登录后才与服务器建立连接。
+The installers contain no account credentials; they only connect to the server after you sign in.
 
-本仓库只托管安装包，不含源码。
+This repository only hosts installers; it contains no source code.
